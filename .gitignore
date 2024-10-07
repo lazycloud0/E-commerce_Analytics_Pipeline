@@ -1,0 +1,33 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# Log files
+*.log
+
+# Data files
+data/
+*.csv
+*.json
+
+# Compiled files
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# Test output
+.pytest_cache/
