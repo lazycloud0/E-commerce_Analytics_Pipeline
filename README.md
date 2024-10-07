@@ -7,51 +7,28 @@ Create a data pipeline that extracts sales data from a simulated e-commerce plat
 ## Project Structure
 
 ├── README.md
-
 ├── data_pipeline
-
 │ ├── **init**.py
-
 │ ├── extract.py
-
 │ ├── transform.py
-
 │ ├── load.py
-
 │ └── config.py
-
 ├── data
-
 │ ├── raw
-
 │ │ ├── customers.csv
-
 │ │ ├── products.csv
-
 │ │ └── sales.csv
-
 │ └── processed
-
 │ ├── transformed_customers.csv
-
 │ ├── transformed_products.csv
-
 │ └── transformed_sales.csv
-
 ├── notebooks
-
 │ ├── data_analysis.ipynb
-
 │ └── data_visualization.ipynb
-
 ├── scripts
-
 │ ├── run_pipeline.py
-
 │ └── visualize_data.py
-
 ├── requirements.txt
-
 └── .gitignore
 
 Explanation
